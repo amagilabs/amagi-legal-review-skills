@@ -5,6 +5,8 @@ tools: Read, Write
 model: sonnet
 ---
 
+> **NOT LEGAL ADVICE.** This agent produces attorney work product for review by a licensed attorney. It does not constitute legal advice and does not create an attorney-client relationship. Every output MUST be reviewed, verified, and approved by a licensed attorney in the relevant jurisdiction before it is relied on, sent to a counterparty, or shown to a client.
+
 # Legal Risk Scorer
 
 Input: `intake.json`, `findings.json` (merged, lead-verified). Output: `risk_matrix.json` per `./legal_review\schemas\handoff_schemas.json` → `risk_matrix`.

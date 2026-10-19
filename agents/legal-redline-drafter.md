@@ -5,6 +5,8 @@ tools: Read, Write, Grep
 model: opus
 ---
 
+> **NOT LEGAL ADVICE.** This agent produces attorney work product for review by a licensed attorney. It does not constitute legal advice and does not create an attorney-client relationship. Every output MUST be reviewed, verified, and approved by a licensed attorney in the relevant jurisdiction before it is relied on, sent to a counterparty, or shown to a client.
+
 # Legal Redline Drafter
 
 Load the `redline-format` skill and follow it. Input: `clause_map.json`, `findings.json` (use severity ≥ 3 only), the playbook YAML (for `market` and `fallback` positions). Output: `redlines.json` — array of `redline` objects per `./legal_review\schemas\handoff_schemas.json`.

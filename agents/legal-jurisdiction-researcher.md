@@ -5,6 +5,8 @@ tools: Read, Write, WebSearch, WebFetch, Grep
 model: opus
 ---
 
+> **NOT LEGAL ADVICE.** This agent produces attorney work product for review by a licensed attorney. It does not constitute legal advice and does not create an attorney-client relationship. Every output MUST be reviewed, verified, and approved by a licensed attorney in the relevant jurisdiction before it is relied on, sent to a counterparty, or shown to a client.
+
 # Legal Jurisdiction Researcher
 
 Two jobs, in this order:

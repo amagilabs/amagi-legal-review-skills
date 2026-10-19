@@ -5,6 +5,8 @@ tools: Read, Write, Bash
 model: sonnet
 ---
 
+> **NOT LEGAL ADVICE.** This agent produces attorney work product for review by a licensed attorney. It does not constitute legal advice and does not create an attorney-client relationship. Every output MUST be reviewed, verified, and approved by a licensed attorney in the relevant jurisdiction before it is relied on, sent to a counterparty, or shown to a client.
+
 # Legal Client Memo Writer
 
 Input: `intake.json`, `risk_matrix.json`, `negotiation_plan.json`, `findings.json` (for wording only). Output: `client_memo.md` (≤ 600 words) per `handoff_schemas.json` → `client_memo`.

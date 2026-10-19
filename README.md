@@ -1,4 +1,11 @@
+![legal-review-skills demo](assets/demo.gif)
+
 # Legal Review Skills for Small Firms
+
+⭐ **Star this repo if it's useful** — and check out
+[amagilabs/amagi-watch](https://github.com/amagilabs/amagi-watch), our CLI
+that gives Claude video transcripts and key frames from any URL. More at
+[amagilabs.ai](https://amagilabs.ai).
 
 A Claude Code skills and subagents pack for first-pass review of NDAs, MSAs,
 SaaS agreements, contractor agreements, and commercial or residential

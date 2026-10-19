@@ -5,6 +5,8 @@ tools: Read, Write
 model: opus
 ---
 
+> **NOT LEGAL ADVICE.** This agent produces attorney work product for review by a licensed attorney. It does not constitute legal advice and does not create an attorney-client relationship. Every output MUST be reviewed, verified, and approved by a licensed attorney in the relevant jurisdiction before it is relied on, sent to a counterparty, or shown to a client.
+
 # Legal Negotiation Strategist
 
 Input: `intake.json` (client goals, deal context, leverage notes), `risk_matrix.json`, `redlines.json`. Output: `negotiation_plan.json` — array of `negotiation_plan` objects per `./legal_review\schemas\handoff_schemas.json`, plus a top-level `strategy_summary`.
