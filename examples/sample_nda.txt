@@ -1,0 +1,72 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of March 3, 2026
+("Effective Date") by and between:
+
+Brightfield Robotics, Inc., a Delaware corporation with offices at 400 Harborview
+Plaza, Suite 900, Wilmington, Delaware ("Brightfield"), and
+
+Cobalt Meridian Logistics LLC, a Texas limited liability company with offices at
+12 Meridian Way, Austin, Texas ("Cobalt Meridian").
+
+Brightfield and Cobalt Meridian are each referred to individually as a "Party" and
+together as the "Parties."
+
+1. PURPOSE
+The Parties wish to explore a potential business relationship involving warehouse
+automation hardware integration (the "Purpose"). In connection with the Purpose, each
+Party may disclose to the other certain confidential technical and business information.
+
+2. DEFINITION OF CONFIDENTIAL INFORMATION
+"Confidential Information" means any information disclosed by one Party ("Disclosing
+Party") to the other ("Receiving Party"), whether orally, in writing, or by inspection,
+that is designated as confidential or that a reasonable person would understand to be
+confidential given the nature of the information and the circumstances of disclosure.
+
+3. OBLIGATIONS OF RECEIVING PARTY
+The Receiving Party shall: (a) hold the Confidential Information in strict confidence;
+(b) not disclose the Confidential Information to any third party; and (c) use the
+Confidential Information solely for the Purpose. The Receiving Party may disclose
+Confidential Information to its employees and contractors on a need-to-know basis.
+
+4. TERM
+This Agreement shall remain in effect for a period of one (1) year from the Effective
+Date. The confidentiality obligations in Section 3 shall survive for a period of three
+(3) years following disclosure of the applicable Confidential Information.
+
+5. EXCLUSIONS
+Confidential Information does not include information that: (a) is or becomes publicly
+available through no fault of the Receiving Party; (b) was already known to the
+Receiving Party prior to disclosure; or (c) is independently developed by the Receiving
+Party without use of the Disclosing Party's Confidential Information.
+
+6. REMEDIES
+The Receiving Party acknowledges that disclosure or use of Confidential Information in
+violation of this Agreement may cause irreparable harm to the Disclosing Party, for
+which monetary damages would be an inadequate remedy, and agrees that the Disclosing
+Party shall be entitled to seek injunctive relief in addition to any other remedies
+available at law or in equity. The Receiving Party shall indemnify the Disclosing Party
+for any and all losses, damages, costs, and expenses arising from any breach of this
+Agreement, without limitation.
+
+7. NO LICENSE
+Nothing in this Agreement shall be construed as granting any license or right to any
+Confidential Information, patent, copyright, trademark, or other intellectual property
+right, except the limited right to use the Confidential Information for the Purpose.
+
+8. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of Delaware, without regard
+to its conflict of laws principles.
+
+9. ENTIRE AGREEMENT
+This Agreement constitutes the entire agreement between the Parties with respect to
+its subject matter and supersedes all prior discussions and agreements, whether oral
+or written.
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective Date.
+
+BRIGHTFIELD ROBOTICS, INC.          COBALT MERIDIAN LOGISTICS LLC
+
+By: _________________________       By: _________________________
+Name:                               Name:
+Title:                              Title:
