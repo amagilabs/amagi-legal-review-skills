@@ -1,4 +1,4 @@
-![legal-review-skills demo](assets/demo.gif)
+![Terminal-style walkthrough of legal-review-lead running the nine-agent amagi-legal-review-skills pipeline on examples/sample_nda.txt](assets/demo.gif)
 
 # Legal Review Skills for Small Firms
 
