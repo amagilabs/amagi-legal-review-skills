@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amagi-legal-review-skills"
+version = "0.1.0"
+description = "Claude Code skills and a nine-agent pipeline for first-pass contract and lease review. Not legal advice."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "AmagiLabs (Amagisolutionsgroup, Inc.)", email = "dev@amagisolutionsgroup.com" }]
+keywords = ["claude", "claude-code", "skills", "subagents", "legal", "contract-review", "lease", "nda"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Legal Industry",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Office/Business",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/amagilabs/amagi-legal-review-skills"
+Source = "https://github.com/amagilabs/amagi-legal-review-skills"
+Issues = "https://github.com/amagilabs/amagi-legal-review-skills/issues"
+
+[project.scripts]
+amagi-legal-review-skills = "amagi_legal_review_skills.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src", "amagi_legal_review_skills.skills" = "skills", "amagi_legal_review_skills.agents" = "agents" }
+packages = ["amagi_legal_review_skills", "amagi_legal_review_skills.skills", "amagi_legal_review_skills.agents"]
+
+[tool.setuptools.package-data]
+"amagi_legal_review_skills.skills" = ["**/*.md"]
+"amagi_legal_review_skills.agents" = ["*.md"]
