@@ -51,8 +51,18 @@ bar card says so.
 
 ## Install
 
-Claude Code loads skills from `~/.claude/skills/` and agents from
-`~/.claude/agents/`. To install this pack:
+```
+pipx install amagi-legal-review-skills
+amagi-legal-review-skills install
+```
+
+That copies the skills into `~/.claude/skills/` and the agents into
+`~/.claude/agents/`, which is where Claude Code loads them from. It skips
+files you already have unless you pass `--force`; `--dry-run` shows what it
+would write, and `--dest` points it at a different Claude Code folder.
+`amagi-legal-review-skills list` shows what is bundled.
+
+To copy the files by hand instead:
 
 ```bash
 # from inside this repo
