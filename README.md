@@ -110,7 +110,7 @@ the attorney's hands.
 
 ## License
 
-MIT. See `LICENSE`. Copyright (c) 2026 AmagiLabs.
+MIT. See `LICENSE`. Copyright (c) 2026 Amagisolutionsgroup, Inc. (AmagiLabs).
 
 ## Contributing
 
