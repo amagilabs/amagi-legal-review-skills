@@ -30,3 +30,10 @@ def test_force_overwrites_and_dry_run_writes_nothing(tmp_path):
 def test_main_list(capsys):
     assert cli.main(["list"]) == 0
     assert "agents/legal-review-lead.md" in capsys.readouterr().out
+
+
+def test_main_fails_loudly_when_nothing_is_bundled(monkeypatch, tmp_path, capsys):
+    monkeypatch.setattr(cli, "bundled", lambda: [])
+    assert cli.main(["install", "--dest", str(tmp_path)]) == 1
+    assert "no bundled skills" in capsys.readouterr().err
+    assert not any(tmp_path.iterdir())

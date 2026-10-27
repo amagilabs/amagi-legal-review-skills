@@ -57,6 +57,10 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--force", action="store_true", help="overwrite files that already exist")
     p.add_argument("--dry-run", action="store_true", help="print what would be written, write nothing")
     a = ap.parse_args(argv)
+    if not bundled():
+        print("error: no bundled skills or agents found; the package install looks broken. "
+              "Reinstall with pipx install --force amagi-legal-review-skills.", file=sys.stderr)
+        return 1
     if a.cmd == "list":
         for rel, _ in bundled():
             print(rel)

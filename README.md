@@ -121,3 +121,10 @@ jurisdictions will need their own playbook files (see the "Playbooks"
 table inside each skill's `SKILL.md`) before the pipeline covers them
 well. Pull requests that add playbook coverage, tighten the citation
 allowlist, or improve the adversarial-review checks are welcome.
+
+Before opening a pull request, run a cold review. Open Claude Code in this repo
+and ask the `goldfish-reviewer` subagent (`.claude/agents/goldfish-reviewer.md`)
+to check your change against this README. It gets only the spec and the code,
+never your chat, so it reads past nothing you meant but did not write. The first
+run, on 2026-10-26, caught that `install` reported success when the package
+bundled no files (fixed; see `docs/goldfish_review_2026-10-26.md`).
